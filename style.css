@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: navy;
+  background: #000435;
   height: 100vh;
 }
 
@@ -47,7 +47,7 @@ body {
   position: absolute;
   height: 200px;
   width: 300px;
-  background: blanchedalmond;
+  background: #89d0f1;
   animation: Bounce 4s ease infinite forwards;
 }
 
@@ -71,7 +71,7 @@ body {
   position: absolute;
   width: 50px;
   height: 200px;
-  background: red;
+  background: #ec6279;
   left: 124px;
 }
 
@@ -85,7 +85,7 @@ body {
 
 .click {
   position: absolute;
-  background: yellow;
+  background: #89cff0;
   width: 340px;
   height: 90px;
   top: -90px;
@@ -105,7 +105,7 @@ body {
   position: absolute;
   width: 50px;
   height: 90px;
-  background: red;
+  background: #ec6279;
   left: 144px;
   z-index: 2;
 }
@@ -115,8 +115,8 @@ body {
   position: absolute;
   width: 5px;
   height: 0px;
-  border-bottom: 60px solid blueviolet;
-  border-top: 60px solid blueviolet;
+  border-bottom: 60px solid rgb(253, 176, 187);
+  border-top: 60px solid rgb(253, 176, 187);
   border-left: 0px solid transparent;
   border-right: 60px solid transparent;
   transform: rotate(-90deg);
@@ -159,12 +159,12 @@ body {
 .text {
   position: absolute;
   top: 0;
-  width: 200px;
-  background: gray;
+  width: 250px;
+  background: rgb(255, 184, 195);
   padding: 20px;
   text-align: center;
   font-size: 20px;
-  color: red;
+  color: rgb(251, 247, 247);
   border-radius: 20px;
   z-index: -1;
   scale: 0;
